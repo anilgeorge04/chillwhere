@@ -14,17 +14,16 @@
             <!-- search box -->
             <p>
                 <label for="query"></label>
-                <input type="text" name="q" id="query" class="resizedTextbox"><br>
-                <button type="reset" class="button_basic" value="Reset">Reset</button><br><br>
+                <input type="text" name="q" id="query" class="resizedTextbox">
+                <button type="reset" class="button_basic" value="Reset">Reset</button>
+                <button type="submit" autofocus class="button_basic button_imdb" value="Search" formtarget="_blank">🎞️<b>
+                    IMDb</b></button><br><br>
             </p>
             <div>
-                Search <button type="submit" autofocus class="button button_imdb" value="Search" formtarget="_blank">🎞️<b>
-                        IMDb</b></button>
-
-                <button type="submit" formaction="https://www.netflix.com/search" class="button button_netflix" value="Search"
+                <button type="submit" formaction="https://www.netflix.com/search" class="button_search button_netflix" value="Search"
                     formtarget="_blank">🍿<b> Netflix</b></button>
 
-                <button type="submit" formaction="https://www.hotstar.com/in/search" class="button button_hotstar"
+                <button type="submit" formaction="https://www.hotstar.com/in/search" class="button_search button_hotstar"
                     value="Search" formtarget="_blank">🌟<b> Hotstar</b></button>
                 
                 <p>Opens in a new tab</p>
@@ -36,7 +35,6 @@
     <footer>
         For Netflix, log-in to your profile to see search results
     </footer>
-    <br>
     <!-- Amazon Prime (todo) -->
     <!-- <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
             <label for="primevideo">📦 Prime  </label>

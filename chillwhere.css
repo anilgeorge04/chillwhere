@@ -34,9 +34,22 @@ div {
     border-radius: 25px;
 }
 
-.button {
+.button_basic {
     border: none;
-    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button_search {
+    border: none;
+    /* color: white; */
     padding: 14px 28px;
     text-align: center;
     text-decoration: none;
@@ -64,6 +77,7 @@ div {
     background-color: black;
     color: red;
     border: 2px ridge red;
+    /* background: url(images/netflix.jpg); */
 }
 
 .button_netflix:hover {
@@ -80,19 +94,6 @@ div {
 .button_hotstar:hover {
     background-color: #008CBA;
     color: black;
-}
-
-.button_basic {
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 5px;
-    transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 footer {

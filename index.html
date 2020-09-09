@@ -13,13 +13,21 @@
             <li>Explore and <b>Decide</b> what and where you'd like to watch</li>
             <li>Go ahead and <b>Chill</b>!</li>
         </ul>
-        <h2>Where are you chilling today?</h2>
+        <h2>What do you want to watch?</h2>
+        <!-- <form action= -->
+        <h3>Where are you chilling today?</h3>
         <form action="https://www.netflix.com/search" method="GET" autocomplete="on">
-            <label for="netflix">📀 Netflix </label>
-            <input name="q" id="netflix" type="text">
-            <!-- <input type="submit" value="Search"> -->
-            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
-            <button type="reset" value="Reset">Reset</button>
+            <label for="query"></label>
+            <input name="q" id="query" type="text" width="50%">
+            <button type="reset" value="Reset">Reset</button><br><br>
+            <iframe src="https://www.imdb.com/" title="imdb" 
+            width="100%" height="400" style="border:none;">
+            </iframe> 
+                <!-- <input type="submit" value="Search"> -->
+            <button type="submit" formaction="https://www.netflix.com/search"
+            value="Search" formtarget="_blank">Search 📀 Netflix</button>
+            <button type="submit" formaction="https://www.hotstar.com/in/search"
+             value="Search" formtarget="_blank">Search 🌟 Hotstar</button>
         </form>
         <br>
         <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
@@ -29,14 +37,5 @@
             <button type="reset" value="Reset">Reset</button>
         </form>
         <br>
-        <form action="https://www.hotstar.com/in/search" method="GET">
-            <label for="hotstar">🌟 Hotstar </label>
-            <input name="q" id="hotstar" type="text">
-            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
-            <button type="reset" value="Reset">Reset</button>
-        </form><br><br>
-        <iframe src="https://www.imdb.com/find" title="imdb" 
-        width="100%" height="400" style="border:none;">
-        </iframe> 
-    </body>
+        </body>
 </html>

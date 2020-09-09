@@ -1,0 +1,105 @@
+body {
+    background-color: darkseagreen;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+    /* font-weight: 100; */
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+}
+
+.resizedTextbox {
+    width: 300px;
+    height: 30px;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button_imdb {
+    background-color: black;
+    color: #FFDB58;
+    border: 2px ridge #FFDB58;
+}
+
+.button_imdb:hover {
+    background-color: #FFDB58;
+    color: black;
+    border: 2px ridge black;
+}
+
+.button_netflix {
+    background-color: black;
+    color: red;
+    border: 2px ridge red;
+}
+
+.button_netflix:hover {
+    background-color: red;
+    color: black;
+}
+
+.button_hotstar {
+    background-color: black;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+.button_hotstar:hover {
+    background-color: #008CBA;
+    color: black;
+}
+
+.button_basic {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(182, 146, 133);
+    color: white;
+    font-family: monospace;
+    display: block;
+}

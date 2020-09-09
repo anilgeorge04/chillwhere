@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>🏖️ Chill Where?</title>
+    </head>
+    <body>
+        <h1>🏖️ Search & Chill</h1>
+        <ul>
+            <li><b>Log-in</b> to Netflix, Primevideo and Hotstar on your browser
+                (Note: if you have multiple profiles set up, go into your profile)</li>
+            <li><b>Search</b> below for the movie or TV show you want to watch</li>
+            <li>Explore and <b>Decide</b> what and where you'd like to watch</li>
+            <li>Go ahead and <b>Chill</b>!</li>
+        </ul>
+        <h2>Where are you chilling today?</h2>
+        <form action="https://www.netflix.com/search" method="GET" autocomplete="on">
+            <label for="netflix">📀 Netflix </label>
+            <input name="q" id="netflix" type="text">
+            <!-- <input type="submit" value="Search"> -->
+            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form>
+        <br>
+        <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
+            <label for="primevideo">📦 Prime  </label>
+            <input name="phrase" id="primevideo" type="text">
+            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form>
+        <br>
+        <form action="https://www.hotstar.com/in/search" method="GET">
+            <label for="hotstar">🌟 Hotstar </label>
+            <input name="q" id="hotstar" type="text">
+            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
+            <button type="reset" value="Reset">Reset</button>
+        </form><br><br>
+        <iframe src="https://www.imdb.com/find" title="imdb" 
+        width="100%" height="400" style="border:none;">
+        </iframe> 
+    </body>
+</html>

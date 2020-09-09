@@ -5,7 +5,7 @@ So you subscribed to Netflix, Amazon Prime and Disney Hotstar. Basically to a LO
 You come across a movie or TV show you want to watch while talking to a friend, watching or reading something.
 Do you then go into each platform one by one to check which one has it? What if you could run the search from one place?
 
-Use **Chill where?** to type once and search across all your platforms.
+Use **Chill where** to type once and search across all your platforms.
 
 ![chill where?](images/chill-where.png)
 

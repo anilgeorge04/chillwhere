@@ -8,7 +8,11 @@ Do you then go into each platform one by one to check which one has it? Sounds t
 What if you could run the search from one place?
 Use **Chill where** to type once and search across all your platforms.
 
-![chill where?](images/chill-where.png)
+<centre>
+
+![chill where today?](images/chill-where.png)
+
+</centre>
 
 How are you planning to chill today?
 

@@ -27,11 +27,27 @@ div {
     display: inline-block;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(182, 146, 133);
+    color: white;
+    font-family: monospace;
+    display: block;
+}
+
+/* Classes */
+
 .resizedTextbox {
     width: 300px;
     height: 30px;
     padding: 8px 20px;
     border-radius: 25px;
+    margin: 8px 0;
+}
+
+.resizedTextbox:focus {
+    border: 3px solid gray
 }
 
 .button_basic {
@@ -94,13 +110,4 @@ div {
 .button_hotstar:hover {
     background-color: #008CBA;
     color: black;
-}
-
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(182, 146, 133);
-    color: white;
-    font-family: monospace;
-    display: block;
 }

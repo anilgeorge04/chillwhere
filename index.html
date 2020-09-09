@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>🏖️ Chill Where?</title>
-    </head>
-    <body>
-        <h1>🏖️ Search & Chill</h1>
-        <ul>
-            <li><b>Log-in</b> to Netflix, Primevideo and Hotstar on your browser
-                (Note: if you have multiple profiles set up, go into your profile)</li>
-            <li><b>Search</b> below for the movie or TV show you want to watch</li>
-            <li>Explore and <b>Decide</b> what and where you'd like to watch</li>
-            <li>Go ahead and <b>Chill</b>!</li>
-        </ul>
-        <h2>What do you want to watch?</h2>
-        <!-- <form action= -->
-        <h3>Where are you chilling today?</h3>
-        <form action="https://www.netflix.com/search" method="GET" autocomplete="on">
-            <label for="query"></label>
-            <input name="q" id="query" type="text" width="50%">
-            <button type="reset" value="Reset">Reset</button><br><br>
-            <iframe src="https://www.imdb.com/" title="imdb" 
-            width="100%" height="400" style="border:none;">
-            </iframe> 
-                <!-- <input type="submit" value="Search"> -->
-            <button type="submit" formaction="https://www.netflix.com/search"
-            value="Search" formtarget="_blank">Search 📀 Netflix</button>
-            <button type="submit" formaction="https://www.hotstar.com/in/search"
-             value="Search" formtarget="_blank">Search 🌟 Hotstar</button>
+
+<head>
+    <title>🏖️ Chill Where?</title>
+    <link rel="stylesheet" href="chillwhere.css">
+</head>
+
+<body>
+    <div>
+        <h1>🏖️ How are you chilling today?</h1>
+        <form action="https://www.imdb.com/find" method="GET">
+            <!-- search box -->
+            <p>
+                <label for="query"></label>
+                <input type="text" name="q" id="query" class="resizedTextbox"><br>
+                <button type="reset" class="button_basic" value="Reset">Reset</button><br><br>
+            </p>
+            <div>
+                Search <button type="submit" autofocus class="button button_imdb" value="Search" formtarget="_blank">🎞️<b>
+                        IMDb</b></button>
+
+                <button type="submit" formaction="https://www.netflix.com/search" class="button button_netflix" value="Search"
+                    formtarget="_blank">🍿<b> Netflix</b></button>
+
+                <button type="submit" formaction="https://www.hotstar.com/in/search" class="button button_hotstar"
+                    value="Search" formtarget="_blank">🌟<b> Hotstar</b></button>
+                
+                <p>Opens in a new tab</p>
+
+            </div>
         </form>
-        <br>
-        <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
+    </div>
+    <br><br>
+    <footer>
+        For Netflix, log-in to your profile to see search results
+    </footer>
+    <br>
+    <!-- Amazon Prime (todo) -->
+    <!-- <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
             <label for="primevideo">📦 Prime  </label>
             <input name="phrase" id="primevideo" type="text">
             <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
             <button type="reset" value="Reset">Reset</button>
         </form>
-        <br>
-        </body>
+        <br> -->
+</body>
+
 </html>

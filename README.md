@@ -1,6 +1,6 @@
 # Chill Where
 
-So you subscribed to Netflix, Amazon Prime and Disney Hotstar. Basically to a LOT of seemingly endless content! 
+So you subscribed to Netflix, Amazon Prime, Disney, Hulu, Hotstar...okay okay...to a LOT of content! 
 
 You come across a movie or TV show you want to watch.
 Do you then go into each platform one by one to check which one has it? Sounds tedious.
@@ -18,3 +18,7 @@ How are you planning to chill today?
 
 ---
 P.S: Stay safe, stay indoor and chill.
+
+### Credit
+- W3Schools
+- Harvard CS50

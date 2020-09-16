@@ -1,106 +1,64 @@
 body {
-    background-color: rgb(198, 230, 198);
+    background-color: rgb(240, 240, 240);
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2 {
     padding-top: 60px;
-}
-
-form {
-    text-align: center;
-    display: block;
-    padding: 20px;
-}
-
-p {
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
 }
 
 footer {
     text-align: center;
-    padding: 3px;
-    background-color: rgb(182, 146, 133);
-    color: white;
+    padding: 5px;
+    background-color: rgb(87, 87, 87);
+    color: grey;
     /* font-family: monospace; */
     display: block;
 }
 
-/* Classes */
-
 .customsize-box {
     width: 300px;
-    height: 30px;
+    height: 45px;
     /* text-align: center; */
-    padding: 8px 20px;
+    padding: 15px 15px;
     border-radius: 20px;
-    margin: 8px 0;
+    margin: 5px 0;
     font-size: medium;
 }
 
-.button_basic {
+.button_reset {
     border: none;
     padding: 10px 20px;
-    /* text-align: center; */
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 5px;
-    transition-duration: 0.2s;
-    cursor: pointer;
-}
-
-.button_basic:hover {
-    background-color: gray;
-}
-
-.button_search {
-    border: none;
-    /* color: white; */
-    padding: 14px 28px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 10px;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
     cursor: pointer;
+    background-color: lightgray;
+    border: 2px ridge darkgrey;
 }
 
-.button_imdb {
-    background-color: black;
-    color: #FFDB58;
-    border: 1px ridge #FFDB58;
+.button_reset:hover {
+    background-color: gray;
 }
 
-.button_imdb:hover {
-    background-color: #FFDB58;
-    color: black;
-    border: 2px ridge black;
-}
-
-.button_netflix {
+.button_cwsearch {
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    cursor: pointer;
     background-color: black;
     color: red;
     border: 2px ridge red;
 }
 
-.button_netflix:hover {
-    background-color: red;
-    color: black;
-}
-
-.button_hotstar {
-    background-color: black;
-    color: #008CBA;
-    border: 2px solid #008CBA;
-}
-
-.button_hotstar:hover {
-    background-color: #008CBA;
+.button_cwsearch:hover {
+    background-color: rgb(200, 25, 25);
     color: black;
 }

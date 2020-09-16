@@ -8,45 +8,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <!-- <script defer src="index.js"></script> -->
-    <title>🏖️ Chill Where?</title>
+    <script defer src="index.js"></script>
+    <title>🤍 Chill Where</title>
 </head>
 
 <body>
-    <ul class="nav"></ul>
     <h1 style="visibility: hidden;">Chill Where</h1>
-    <div>
-        <h1>🥤 How are you chilling today?</h1>
-        <form method="GET">
-            <!-- search box and reset button -->
-            <input type="text" name="q" id="query" class="customsize-box" placeholder="Search here">
-            <button type="reset" class="button_basic" value="Reset">Reset</button>
-            
-            <button type="submit" formaction="https://www.imdb.com/find" autofocus class="button_basic button_imdb" value="Search"
-		formtarget="_blank">🎞️<b> IMDb</b></button><br>
+    <h2>
+        🥤 Chill Where
+        <small class="text-muted">today?</small>
+    </h2>
+    <form>
+        <input type="text" name="q" id="query" class="customsize-box" placeholder="I want to watch..."
+            autofocus> on...<br><br>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="netflix">
+            <label for="netflix" class="form-check-label">Netflix</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="prime">
+            <label for="prime" class="form-check-label">Amazon Prime</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="hotstar">
+            <label for="hotstar" class="form-check-label">Disney+ Hotstar</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="imdb">
+            <label for="imdb" class="form-check-label">IMDb</label>
+        </div><br><br>
 
-            <button type="submit" formaction="https://www.netflix.com/search" class="button_search button_netflix" value="Search"
-                formtarget="_blank">🍿<b> Netflix</b></button>
+        <button type="button" id="cwsearch" onclick="open_results(); return false;" class="button_cwsearch"><b>CW
+                Search</b></button>
 
-            <button type="submit" formaction="https://www.hotstar.com/in/search" class="button_search button_hotstar"
-                value="Search" formtarget="_blank">🌟<b> Hotstar</b></button>
-        </form>
-        <p>Opens search results in a new tab</p>
-        <p style=font-size:small>Note: You must log-in to your profile to see search results and watch content</p>
-    </div>
-    <br>
+        <button type="reset" id="reset" class="button_reset" onclick="close_results()">CW Reset</button>
+    </form><br>
+    <p>
+        With a single click,<br>
+        <b>CW Search: </b>Opens search results in multiple new tabs (enable pop-up for this)<br>
+        <b>CW Reset: </b>Resets search and also closes all tabs opened by Chill Where
+    </p>
+    <hr>
+    <p style=font-size:small><b>Note: </b>You must log-in to your profile to see search results and watch content</p>
     <p style="font-size: x-small;">This service only works in India currently.</p>
     <footer>
         🤍<a href="https://anilgeorge04.github.io">Minimal Cave</a> © 2020
     </footer>
-    <!-- Amazon Prime (todo) -->
-    <!-- <form action="https://www.primevideo.com/region/eu/search/ref=atv_nb_sr" method="GET">
-            <label for="primevideo">📦 Prime  </label>
-            <input name="phrase" id="primevideo" type="text">
-            <button type="submit" value="Search" formtarget="_blank">Search in new tab</button>
-            <button type="reset" value="Reset">Reset</button>
-        </form>
-        <br> -->
 </body>
 
 </html>

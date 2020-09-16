@@ -1,5 +1,5 @@
 body {
-    background-color: darkseagreen;
+    background-color: rgb(198, 230, 198);
 }
 
 h1 {
@@ -24,13 +24,13 @@ footer {
     padding: 3px;
     background-color: rgb(182, 146, 133);
     color: white;
-    font-family: monospace;
+    /* font-family: monospace; */
     display: block;
 }
 
 /* Classes */
 
-.resized-textbox {
+.customsize-box {
     width: 300px;
     height: 30px;
     /* text-align: center; */

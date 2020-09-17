@@ -1,6 +1,6 @@
 # Chill Where
 
-So you subscribed to Netflix, Amazon Prime, Disney, Hulu, Hotstar...alright alright...to a whole LOT of content! 
+So you watch content on Netflix, Amazon Prime, Disney, Hotstar, YouTube and so on. 
 
 You come across a movie or TV show you want to watch.
 Do you then go into each platform one by one to check which one has it? Sounds tedious.
@@ -14,18 +14,15 @@ Use **Chill Where** to find your favorite movies and TV shows faster.
 </centre>
 
 ### How to use?
-- Type in the movie or TV show in the search box
-- Reset button resets the search box
-- Each platform's button takes you to search results in a new tab
+- Search: Opens results in new tabs (enable pop-up* for this site)
+- CW Reset: Closes all tabs opened by Chill Where in one go
+
+*We are not fans of multiple tabs either. Working on bringing this within Chill Where soon!
 
 Pro-tip: Sign into your subscribed platforms in advance to search seamlessly
 Ex: Netflix needs you to login to see search results
 
-How are you planning to chill today?
+How are you chilling today?
 
 ---
-P.S: Stay safe, stay indoor and chill.
-
-### Credit
-- W3Schools
-- Harvard CS50
+Stay safe, stay indoor.

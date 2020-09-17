@@ -2,7 +2,7 @@ var urls = [];
 var url_obj = [];
 var netflix_url = 'https://www.netflix.com/search?q=';
 var prime_url = 'https://www.primevideo.com/region/eu/search/ref=atv_nb_sr?phrase=';
-var hotstar_url = 'https://www.hotstar.com/in/search?q='
+var hotstar_url = 'https://www.hotstar.com/in/search?q=';
 var imdb_url = 'https://imdb.com/find?q=';
 var yt_url = 'https://www.youtube.com/results?search_query=';
 

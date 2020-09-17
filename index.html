@@ -19,7 +19,7 @@
         <small class="text-muted">today?</small>
     </h2>
     <form>
-        <input type="text" name="q" id="query" class="customsize-box" placeholder="I want to watch..." autofocus>
+        <input type="text" name="q" id="query" class="customsize-box" placeholder="I want to search for..." autofocus>
         on...<br><br>
         <div class="form-check form-check-inline">
             <input type="checkbox" class="form-check-input" id="netflix">
@@ -42,20 +42,21 @@
             <label for="imdb" class="form-check-label">Lookup IMDb</label>
         </div><br><br>
 
-        <button type="button" id="cwsearch" onclick="open_results(); return false;" class="button_cwsearch"><b>CW
-                Search</b></button>
+        <button type="button" id="cwsearch" onclick="open_results(); return false;" 
+        class="button_cwsearch"><strong>Search</strong></button>
 
         <button type="reset" id="reset" class="button_reset" onclick="close_results()">CW Reset</button>
     </form><br>
     <p>
-        With a <strong>single click</strong>,<br>
-        <b>CW Search: </b>Opens search results in multiple new tabs (enable pop-up for this site)<br>
-        <b>CW Reset: </b>Closes all tabs opened by Chill Where & resets search
+        <b>Search: </b>Opens results in new tabs (enable pop-up* for this site)<br>
+        <b>CW Reset: </b>Closes all tabs opened by Chill Where in one go
     </p>
     <hr>
+    <p style=font-size:small>*We do not like opening multiple tabs either.
+        We're working on bringing this information within Chill Where soon!</p>
     <p style=font-size:small><b>Note: </b>You must log-in to your profile to see search results and watch content</p>
-    <p style="font-size: x-small;">This service only works in India currently.</p>
     <footer id="footer">
+        <p style="font-size: x-small;">This service only works in India currently.</p>
         🤍<a href="https://anilgeorge04.github.io">Minimal Cave</a> © 2020
     </footer>
 </body>

@@ -4,6 +4,7 @@ var netflix_url = 'https://www.netflix.com/search?q=';
 var prime_url = 'https://www.primevideo.com/region/eu/search/ref=atv_nb_sr?phrase=';
 var hotstar_url = 'https://www.hotstar.com/in/search?q='
 var imdb_url = 'https://imdb.com/find?q=';
+var yt_url = 'https://www.youtube.com/results?search_query=';
 
 
 function open_results() {
@@ -23,6 +24,9 @@ function open_results() {
     }
     if (document.getElementById('hotstar').checked == true) {
       urls.push(hotstar_url+query.value);
+    }
+    if (document.getElementById('youtube').checked == true) {
+      urls.push(yt_url+query.value);
     }
     if (document.getElementById('imdb').checked == true) {
       urls.push(imdb_url+query.value);
